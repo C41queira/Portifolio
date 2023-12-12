@@ -7,8 +7,9 @@
     padding: 0;
 }
 
-body{
+body {
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 li,
@@ -45,6 +46,11 @@ header a {
     color: white;
 }
 
+header a:hover {
+
+    color: rgb(180, 180, 180);
+}
+
 main {
     position: relative;
 }
@@ -62,46 +68,37 @@ main {
     background-attachment: fixed;
 }
 
-.container{
+.container {
     width: 950px;
 }
 
-#inicio {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    padding: 20px auto 0 auto;
+#inicio{
+    padding: 20px;
 }
 
-#inicio p {
-    font-size: 22px;
-    width: 950px;
-
-    margin-top: 20px;
-
-    text-align: justify;
+#pixel{
+    float: left;
+    margin: 0 10px 10px 0;
 }
-
-#inicio img {
-    width: 300px;
-}
-
 
 #especializacoes {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
-#especializacoes img {
+.textInfo{
+    text-align: justify !important;
+}
+
+.icon {
     width: 35px;
 }
 
-.lista{
+.lista {
     display: flex;
     justify-content: center;
 }
 
-.lista div{
+.lista div {
     margin: 10px 20px;
     border-radius: 8px;
     border: 2px solid white;
@@ -109,11 +106,11 @@ main {
     width: 210px;
 }
 
-.lista img{
+.lista img {
     margin-right: 10px;
 }
 
-.temaDev{
+.temaDev {
     border-radius: 8px 8px 0 0;
     padding: 5px 10px;
     margin-bottom: 15px;
@@ -129,7 +126,7 @@ main {
     font-size: 18px;
 }
 
-#imagemPerfil{
+#imagemPerfil {
     float: left;
     margin: 0 10px 10px 0;
 
@@ -145,8 +142,22 @@ footer {
 
 }
 
-.contatos ul {
+.contatos {
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.contatos div {
+    text-align: center;
+}
+
+.contatos a {
+    color: white;
+    text-decoration: none;
+}
+
+.contatos a:hover {
+    color: rgb(180, 180, 180);
 }
