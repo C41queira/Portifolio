@@ -5,14 +5,14 @@
 }
 
 .slider{
-    width: 800px;
-    height: 540px;
+    width: 650px;
+    height: 500px;
     overflow: hidden;
 }
 
 .slides{
     width: 400%;
-    height: 540px;
+    height: 500px;
     display: flex;
 }
 
@@ -26,13 +26,23 @@
 }
 
 .slide img{
-    width: 800px;
+    width: 650px;
+}
+
+.slideProject img{
+    width: 470px;
+    margin: 10px 90px;
+}
+
+.slideProject img:hover{
+    box-shadow: 0px 0px 4px 3px rgb(255, 255, 255);
+    border-radius: 500px;
 }
 
 .manual_navigation{
     position: absolute;
-    width: 800px;
-    margin-top: -25px;
+    width: 650px;
+    margin-top: -60px;
     display: flex;
     justify-content: center;
 }
@@ -61,10 +71,21 @@
     margin-left: -50%;
 }
 
+#radio-btn-project1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio-btn-project2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio-btn-project3:checked ~ .first{
+    margin-left: -50%;
+}
+
 .navigation{
     position: absolute;
-    width: 800px;
-    margin-top: 515px;
+    width: 650px;
+    margin-top: 440px;
     display: flex;
     justify-content: center;
 }
@@ -89,6 +110,19 @@
 #radio-btn3:checked ~ .navigation .auto-btn3{
     background-color: black;
 }
+
+#radio-btn-project1:checked ~ .navigation .auto-btn1{
+    background-color: black;
+}
+
+#radio-btn-project2:checked ~ .navigation .auto-btn2{
+    background-color: black;
+}
+
+#radio-btn-project3:checked ~ .navigation .auto-btn3{
+    background-color: black;
+}
+
 
 .btn{
     font-size: 25px !important;

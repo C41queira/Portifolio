@@ -96,14 +96,15 @@ main {
 .lista {
     display: flex;
     justify-content: center;
+    width: 1000px;
 }
 
 .lista div {
-    margin: 10px 20px;
+    margin: 10px;
     border-radius: 8px;
     border: 2px solid white;
     text-align: center;
-    width: 210px;
+    width: 250px;
 }
 
 .lista img {
@@ -115,7 +116,7 @@ main {
     padding: 5px 10px;
     margin-bottom: 15px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .sobreMim {

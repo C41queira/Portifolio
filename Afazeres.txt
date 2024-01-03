@@ -1,0 +1,4 @@
+ - Colocar nome no icon do bot
+ - Dois links por click
+ - Rosangela estética
+ - Atualizar linkedin
