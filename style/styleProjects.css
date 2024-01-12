@@ -1,3 +1,12 @@
+hr{
+    width: 650px;
+    height: 2px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: white;
+}
+
 .sectionMain{
     display: flex;
     justify-content: center;
@@ -29,20 +38,10 @@
     width: 650px;
 }
 
-.slideProject img{
-    width: 470px;
-    margin: 10px 90px;
-}
-
-.slideProject img:hover{
-    box-shadow: 0px 0px 4px 3px rgb(255, 255, 255);
-    border-radius: 500px;
-}
-
 .manual_navigation{
     position: absolute;
     width: 650px;
-    margin-top: -60px;
+    margin-top: -94px;
     display: flex;
     justify-content: center;
 }
@@ -59,33 +58,10 @@
 .manual-btn:hover{
     background-color: black;
 }
-
-#radio-btn1:checked ~ .first{
-    margin-left: 0;
-}
-
-#radio-btn2:checked ~ .first{
-    margin-left: -25%;
-}
-#radio-btn3:checked ~ .first{
-    margin-left: -50%;
-}
-
-#radio-btn-project1:checked ~ .first{
-    margin-left: 0;
-}
-
-#radio-btn-project2:checked ~ .first{
-    margin-left: -25%;
-}
-#radio-btn-project3:checked ~ .first{
-    margin-left: -50%;
-}
-
 .navigation{
     position: absolute;
     width: 650px;
-    margin-top: 440px;
+    margin-top: 406px;
     display: flex;
     justify-content: center;
 }
@@ -99,16 +75,27 @@
     margin: auto 10px;
 }
 
-#radio-btn1:checked ~ .navigation .auto-btn1{
-    background-color: black;
+
+/* -------------------- Projetos -------------------- */
+
+.slideProject img{
+    width: 600px;
+    margin: 20px 25px;
 }
 
-#radio-btn2:checked ~ .navigation .auto-btn2{
-    background-color: black;
+.slideProject img:hover{
+    box-shadow: 0px 0px 4px 3px rgb(255, 255, 255);
 }
 
-#radio-btn3:checked ~ .navigation .auto-btn3{
-    background-color: black;
+#radio-btn-project1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio-btn-project2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio-btn-project3:checked ~ .first{
+    margin-left: -50%;
 }
 
 #radio-btn-project1:checked ~ .navigation .auto-btn1{
@@ -122,7 +109,6 @@
 #radio-btn-project3:checked ~ .navigation .auto-btn3{
     background-color: black;
 }
-
 
 .btn{
     font-size: 25px !important;
@@ -143,9 +129,27 @@
     background-color: lightblue !important;
     color: black !important;
 }
+/* ------------------ Certificados ------------------ */
 
+#radio-btn1:checked ~ .first{
+    margin-left: 0;
+}
 
-.container{
-    background-color: gray;
-    height: 100%;
+#radio-btn2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio-btn3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio-btn1:checked ~ .navigation .auto-btn1{
+    background-color: black;
+}
+
+#radio-btn2:checked ~ .navigation .auto-btn2{
+    background-color: black;
+}
+
+#radio-btn3:checked ~ .navigation .auto-btn3{
+    background-color: black;
 }

@@ -12,14 +12,25 @@
 
 <body>
     <header>
-        <h1><img src="img/index/iconBigode.png" alt="" style="width: 50px;"> Dev de Bigode</h1>
+        <div>
+            <h1><img src="img/index/iconBigode.png" alt="" style="width: 50px;"> Dev de Bigode</h1>
+        </div>
 
-        <ul>
-            <li><a href="pages/projects.html">Projetos e Certificados</a></li>
-            <li><a href="#">Especializações</li>
-            <li><a href="#">Sobre mim</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <div>
+            <ul>
+                <div class="text-center divisoria">
+                    <li><a href="pages/projects.html">Projetos e Certificados</a></li>
+                    <li><a href="#">Especializações</li>
+                </div>
+                <div class="text-center divisoria">
+                    <li><a href="#">Sobre mim</a></li>
+                    <li><a href="#">Contato</a></li>
+                </div>
+            </ul>
+        </div>
+
+
+
     </header>
 
     <main>
@@ -28,49 +39,62 @@
 
         <section class="container" id="inicio">
             <img src="img/index/CaickPixel.png" alt="" style="width: 250px;" id="pixel">
-            <h2 style="margin-top: 45px; text-align: justify;">O pequeno cantinho de um programador dentro da imensidão do mundo da tecnologia</h2>
+            <h2 style="margin-top: 45px; text-align: justify;">O pequeno cantinho de um programador dentro da imensidão
+                do mundo da tecnologia</h2>
         </section>
 
         <br><br><br>
-        
+
         <hr>
 
-        <section class="container" id="especializacoes">
+        <section id="especializacoes">
             <h2 class="text-center">Áreas de conhecimento</h2>
-            <p class="textInfo">Estudei no Colégio Técnico de Campinas, também conhecido como Cotuca, onde concluí o ensino médio e iniciei um curso técnico em Eletroeletrônica, que infelizmente não concluí. Durante esse período, desenvolvi habilidades básicas em diversas áreas, incluindo a criação de planilhas no Excel, o uso do AutoCAD e o domínio de outras tecnologias relacionadas ao pacote Office.</p>
-            <p class="text-center textInfo">Além da minha experiencia nesta área tecnica, possuo os seguintes conhecimentos na
+            <p class="textInfo">Estudei no Colégio Técnico de Campinas, também conhecido como Cotuca, onde concluí o
+                ensino médio e iniciei um curso técnico em Eletroeletrônica, que infelizmente não concluí. Durante esse
+                período, desenvolvi habilidades básicas em diversas áreas, incluindo a criação de planilhas no Excel, o
+                uso do AutoCAD e o domínio de outras tecnologias relacionadas ao pacote Office.</p>
+            <p class="text-center textInfo">Além da minha experiencia nesta área tecnica, possuo os seguintes
+                conhecimentos na
                 área de programação:
             </p>
 
             <div class="lista">
-                <div>
-                    <h4 class="temaDev" style="background-color: #CC2929;">Back-End:</h4>
 
-                    <p><img class="icon" src="img/index/java-icon.png" alt="">Java</p>
-                    <p><img class="icon" src="img/index/iconPython.png" alt="">Python</p>
+                <div class="divisoria">
+                    <div class="quadrante">
+                        <h4 class="temaDev" style="background-color: #CC2929;">Back-End:</h4>
 
+                        <p><img class="icon" src="img/index/java-icon.png" alt="">Java</p>
+                        <p><img class="icon" src="img/index/iconPython.png" alt="">Python</p>
+
+                    </div>
+                    <div class="quadrante">
+                        <h4 class="temaDev" style="background-color: #2929CC;">Front-End:</h4>
+
+                        <p><img class="icon" src="img/index/iconHTML.png" alt=""><img class="icon"
+                                src="img/index/iconCss2.png" alt="">HTML & CSS</p>
+                        <p><img class="icon" src="img/index/IconJS.png" alt="">JavaScript</p>
+
+                    </div>
                 </div>
-                <div>
-                    <h4 class="temaDev" style="background-color: #2929CC;">Front-End:</h4>
 
-                    <p><img class="icon" src="img/index/iconHTML.png" alt=""><img class="icon" src="img/index/iconCss2.png" alt="">HTML & CSS</p>
-                    <p><img class="icon" src="img/index/IconJS.png" alt="">JavaScript</p>
+                <div class="divisoria">
+                    <div class="quadrante">
+                        <h4 class="temaDev" style="background-color: #0F4D0F;">Banco de dados:</h4>
 
+                        <p><img class="icon" src="img/index/IconMySQL2.png" alt="">MySQL</p>
+                        <p><img class="icon" src="img/index/iconMongoDB.png" alt=""> MongoDB</p>
+
+                    </div>
+                    <div class="quadrante">
+                        <h4 class="temaDev" style="background-color: gray;">Framework:</h4>
+
+                        <p><img class="icon" src="img/index/IconSpringBoot.png" alt="">Spring Boot</p>
+                        <p><img class="icon" src="img/index/iconBootStrap.png" alt="">Bootstrap</p>
+
+                    </div>
                 </div>
-                <div>
-                    <h4 class="temaDev" style="background-color: #0F4D0F;">Banco de dados:</h4>
 
-                    <p><img class="icon" src="img/index/IconMySQL2.png" alt="">MySQL</p>
-                    <p><img class="icon" src="img/index/iconMongoDB.png" alt=""> MongoDB</p>
-
-                </div>
-                <div>
-                    <h4 class="temaDev" style="background-color: gray;">Framework:</h4>
-
-                    <p><img class="icon" src="img/index/IconSpringBoot.png" alt="">Spring Boot</p>
-                    <p><img class="icon" src="img/index/iconBootStrap.png" alt="">Bootstrap</p>
-
-                </div>
         </section>
 
         <hr>
@@ -92,18 +116,19 @@
     <footer>
         <h2 class="text-center">Formas de contato</h2>
         <div class="contatos">
-            
-                <div>
-                    <p>Telefone: (19) 3269-2488</p>
-                    <p>Celular: (19) 98945-6307</p>
-                    <p>Email: devdbigode@gmail.com</p>
-                </div>
-                <div>
-                    <p><a href="#"> <img class="icon" src="img/index/iconLinkedin.png" alt=""> Linkedin</a></p>
-                    <p><a href="https://github.com/C41queira"> <img class="icon" src="img/index/iconGithub.png" alt=""> GitHub</a></p>
-                    <p><a href="#"> <img class="icon" src="img/index/iconInsta.png" alt=""> Instagram</a></p>
-                </div>
-            
+
+            <div>
+                <p>Telefone: (19) 3269-2488</p>
+                <p>Celular: (19) 98945-6307</p>
+                <p>Email: devdbigode@gmail.com</p>
+            </div>
+            <div>
+                <p><a href="#"> <img class="icon" src="img/index/iconLinkedin.png" alt=""> Linkedin</a></p>
+                <p><a href="https://github.com/C41queira"> <img class="icon" src="img/index/iconGithub.png" alt="">
+                        GitHub</a></p>
+                <p><a href="#"> <img class="icon" src="img/index/iconInsta.png" alt=""> Instagram</a></p>
+            </div>
+
         </div>
 
         <hr>
