@@ -1,4 +1,4 @@
- - Responsividade
+ - Ancoras footer
  - Atualizar linkedin
  - Ancora com posts do linkedin
  - Ancoragem dos links do index
