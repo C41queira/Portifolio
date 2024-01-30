@@ -11,27 +11,7 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1><img src="img/index/iconBigode.png" alt="" style="width: 50px;"> Dev de Bigode</h1>
-        </div>
-
-        <div>
-            <ul>
-                <div class="text-center divisoria">
-                    <li><a href="pages/projects.html">Projetos e Certificados</a></li>
-                    <li><a href="#">Especializações</li>
-                </div>
-                <div class="text-center divisoria">
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Contato</a></li>
-                </div>
-            </ul>
-        </div>
-
-
-
-    </header>
+    <object data="pages/fragments/header.html" type="text/html" class="obj" id="header-obj"></object>
 
     <main>
 
@@ -47,7 +27,7 @@
 
         <hr>
 
-        <section id="especializacoes">
+        <section class="container">
             <h2 class="text-center">Áreas de conhecimento</h2>
             <p class="textInfo">Estudei no Colégio Técnico de Campinas, também conhecido como Cotuca, onde concluí o
                 ensino médio e iniciei um curso técnico em Eletroeletrônica, que infelizmente não concluí. Durante esse
@@ -58,9 +38,10 @@
                 área de programação:
             </p>
 
-            <div class="lista">
+            <div class="row row-cols-auto">
 
-                <div class="divisoria">
+
+                <div class="col">
                     <div class="quadrante">
                         <h4 class="temaDev" style="background-color: #CC2929;">Back-End:</h4>
 
@@ -77,8 +58,7 @@
 
                     </div>
                 </div>
-
-                <div class="divisoria">
+                <div class="col">
                     <div class="quadrante">
                         <h4 class="temaDev" style="background-color: #0F4D0F;">Banco de dados:</h4>
 
@@ -94,6 +74,8 @@
 
                     </div>
                 </div>
+
+
 
         </section>
 
@@ -113,30 +95,11 @@
         </section>
     </main>
 
-    <footer>
-        <h2 class="text-center">Formas de contato</h2>
-        <div class="contatos">
 
-            <div>
-                <p>Telefone: (19) 3269-2488</p>
-                <p>Celular: (19) 98945-6307</p>
-                <p>Email: devdbigode@gmail.com</p>
-            </div>
-            <div>
-                <p><a href="#"> <img class="icon" src="img/index/iconLinkedin.png" alt=""> Linkedin</a></p>
-                <p><a href="https://github.com/C41queira"> <img class="icon" src="img/index/iconGithub.png" alt="">
-                        GitHub</a></p>
-                <p><a href="#"> <img class="icon" src="img/index/iconInsta.png" alt=""> Instagram</a></p>
-            </div>
-
-        </div>
-
-        <hr>
-        <p class="text-center">©Criado e desenvolvido por Caick Bertin Viana</p>
-    </footer>
-
+    <object data="pages/fragments/footer.html" type="text/html" class="obj" id="footer-obj"></object>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/scrollMove.js"></script>
 
 </body>
 

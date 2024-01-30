@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../style/StyleIndex.css">
+    <title>Dev d bigode</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        footer {
+            background-color: #0b1320;
+        
+            color: white;
+        
+            padding: 20px;
+        
+        }
+        
+        .contatos {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        @media (max-width: 670px) {
+            .contatos{
+                flex-direction: column;
+            }
+        
+            .contatos div {
+                margin-bottom: 30px;
+            }
+        }
+        
+        .contatos div {
+            text-align: center;
+        }
+        
+        .contatos a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .contatos a:hover {
+            color: rgb(180, 180, 180);
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <h2 class="text-center">Formas de contato</h2>
+        <div class="contatos">
+
+            <div>
+                <p>Telefone: (19) 3269-2488</p>
+                <p>Celular: (19) 98945-6307</p>
+                <p>Email: devdbigode@gmail.com</p>
+            </div>
+            <div>
+                <p><a href="https://www.linkedin.com/in/caick-bertin-695471298/" target="_blank"> <img class="icon m-1" src="../../img/index/iconLinkedin.png" alt=""> Linkedin</a></p>
+                <p><a href="https://github.com/C41queira" target="_blank"> <img class="icon m-2" src="../../img/index/iconGithub.png" alt="">GitHub</a></p>
+                <p><a href="#"> <img class="icon m-1" src="../../img/index/iconInsta.png" alt=""> Instagram</a></p>
+            </div>
+
+        </div>
+
+        <hr>
+        <p class="text-center">©Criado e desenvolvido por Caick Bertin Viana</p>
+    </footer>
+</body>
+</html>

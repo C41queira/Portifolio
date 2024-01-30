@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../style/StyleIndex.css">
+    <link rel="shortcut icon" type="imagex/png" href="../../img/index/iconBigode.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        
+            background-color: #0b1320;
+        
+            color: white;
+        
+            padding: 20px;
+        }
+        
+        @media (max-width: 1135px) {
+            header {
+                flex-direction: column;
+            }
+        }
+        
+        header ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+        
+        .divisoria {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        @media (max-width: 830px) {
+            header{
+                padding-bottom: 0;
+            }
+
+            header .divisoria {
+                display: block;
+            }
+        
+        }
+        
+        header ul li {
+            margin: 5px 15px;
+        
+            padding: 8px 8px;
+        }
+        
+        header a {
+            font-size: 18px;
+            color: white;
+        }
+        
+        header a:hover {
+        
+            color: rgb(180, 180, 180);
+        }
+    </style>
+    <title>Projetos e certificados</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1><img src="../../img/index/iconBigode.png" alt="" style="width: 50px;"> Dev de Bigode</h1>
+        </div>
+
+        <div>
+            <ul>
+                <div class="text-center divisoria">
+                    <li><a href="javascript:void(0);" onclick="window.top.location.href='../projects.html'">Projetos e Certificados</a></li>
+                    <li><a href="javascript:void(0);" onclick="window.top.location.href='../../index.html'">Especializações</li>
+                </div>
+                <div class="text-center divisoria">
+                    <li><a href="javascript:void(0);" onclick="window.top.location.href='../../index.html'">Sobre mim</a></li>
+                    <li id="contato"><a href="#">Contato</a></li>
+                </div>
+            </ul>
+        </div>
+    </header>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -12,15 +12,9 @@
 </head>
 
 <body>
-    <header>
-        <h1><img src="../img/index/iconBigode.png" alt="" style="width: 50px;"> Dev de Bigode</h1>
 
-        <ul>
-            <li><a href="../index.html">Especializações</li>
-            <li><a href="../index.html">Sobre mim</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </header>
+    <object data="fragments/header.html" type="text/html" class="obj" id="header-obj"></object>
+    
 
     <main>
         <img src="../img/index/backgroundImageMain2.jpg" alt="" id="backgroundMain">
@@ -66,41 +60,21 @@
             <br><br>
         </section>
 
-        <section>
+        <section class="container">
             <br>
             <h2 class="text-center">Projetos</h2>
             <hr>
             <br>
-            <ul class="listProjects container">
-                <li><a href="https://github.com/Ovocozido42/Trabalho_Python" target ="_blank"><img src="../img/projects/bot-automatizador-logo.png" alt="Logo representativa de um bot automatizador"></a></li>
-                <li><a href="#" target ="_blank"><img src="../img/projects/Rosangela-Estetica.png" alt="Logo representativa de um website de estética"></a></li>
-                <li><img src="../img/projects/imageEmBreve.jpg" alt=""></li>
-            </ul>
+            <div class="row row-cols-auto">
+                <div class="card col"><a href="https://github.com/Ovocozido42/Trabalho_Python" target ="_blank"><img src="../img/projects/bot-automatizador-logo.png" alt="Logo representativa de um bot automatizador"></a></div>
+                <div class="card col"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7153369835689717760/" target ="_blank"><img src="../img/projects/Rosangela-Estetica.png" alt="Logo representativa de um website de estética"></a></div>
+                <div class="card col"><img src="../img/projects/imageEmBreve.jpg" alt=""></div>
+            </div>
         </section>
         <br><br>
     </main>
 
-    <footer>
-        <h2 class="text-center">Formas de contato</h2>
-        <div class="contatos">
-
-            <div>
-                <p>Telefone: (19) 3269-2488</p>
-                <p>Celular: (19) 98945-6307</p>
-                <p>Email: devdbigode@gmail.com</p>
-            </div>
-            <div>
-                <p><a href="#"> <img class="icon" src="../img/index/iconLinkedin.png" alt=""> Linkedin</a></p>
-                <p><a href="https://github.com/C41queira"> <img class="icon" src="../img/index/iconGithub.png" alt="">
-                        GitHub</a></p>
-                <p><a href="#"> <img class="icon" src="../img/index/iconInsta.png" alt=""> Instagram</a></p>
-            </div>
-
-        </div>
-
-        <hr>
-        <p class="text-center">©Criado e desenvolvido por Caick Bertin Viana</p>
-    </footer>
+    <object data="fragments/footer.html" type="text/html" class="obj" id="footer-obj"></object>   
 
     <!-- <Script> -->
 
